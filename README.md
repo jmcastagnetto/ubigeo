@@ -1,7 +1,21 @@
-# ubigeo
+# ubigeo (R package)
 
 <!-- badges: start -->
 <!-- badges: end -->
+
+
+## Installation
+
+This package is not yet in CRAN, but you can install it by using `devtools`
+
+``` r
+devtools::install_github("jmcastagnetto/ubigeo")
+```
+
+## Note
+
+If you rather use a CSV, JSON or RDS file, these are (in Spanish) at: https://github.com/jmcastagnetto/ubigeo-peru-aumentado
+
 
 ## Motivation
 
@@ -26,8 +40,8 @@ and miscellaenous indicators as described below:
 
 - **Porcentage of population in extreme poverty**: Data for extreme poverty at the regional/deparmental level is for 2020, from the study "Informe técnico: Evolución de la pobreza monetaria 2009 - 2020" (INEI, 2021). For the provicial and distrital levels the data is for 2015, from the study "Mapa de Pobreza Provincial y Distrital 2013" (INEI, 2015). (Source: CEPLAN, INEI)
 
-
 Also included is the INEI codification for small population centers (CCPP in the peruvian nomenclature)
+
 
 ## Data structure
 
@@ -101,18 +115,19 @@ Also included is the INEI codification for small population centers (CCPP in the
 | `pct_pobreza_total`        | Percentage of population in poverty         |
 | `pct_pobreza_extrema`      | Percentage of population in extreme poverty |
 
+## For Small Population Centers (Centros Poblados = CCPP)
 
-## Installation
-
-This package is not yet in CRAN, but you can install it by using `devtools`
-
-``` r
-devtools::install_github("jmcastagnetto/ubigeo")
-```
-
-## Note
-
-If you rather use a CSV, JSON or RDS file, these are (in Spanish) at: https://github.com/jmcastagnetto/ubigeo-peru-aumentado
+| Field                      | Description                                 |
+| --------------------       | -------------                               |
+| `inei_cpp`                 | CPP UBIGEO (INEI)                           |
+| `inei_district`            | District BIGEO (RENIEC)                     |
+| `department`               | Name of the Department                      |
+| `province`                 | Name of the Province                        |
+| `district`                 | Name of the District                        |
+| `ccpp`                     | Name of the CCPP                            |
+| `type`                     | Type of CPP (Urban or Rural)                |
+| `latitude`                 | Latitude(South)                             |
+| `longitude`                | Longitude (West)                            |
 
 
 **LICENSE: MIT**
