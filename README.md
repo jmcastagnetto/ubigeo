@@ -110,4 +110,9 @@ This package is not yet in CRAN, but you can install it by using `devtools`
 devtools::install_github("jmcastagnetto/ubigeo")
 ```
 
+## Note
+
+If you rather use a CSV, JSON or RDS file, these are (in Spanish) at: https://github.com/jmcastagnetto/ubigeo-peru-aumentado
+
+
 **LICENSE: MIT**
