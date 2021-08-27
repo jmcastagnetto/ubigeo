@@ -6,8 +6,9 @@ authors:
   orcid: "https://orcid.org/0000-0002-7188-1605"
 title: "ubigeo: UBIGEO Codes (Geographical Location Codes, Perú)"
 abstract: "In Peru, geographical locations have an official geographical code called UBIGEO (from the spanish denomination as 'UBIcación GEOgráfica'). The problem is that there are two widely used and not completely equivalent coding systems: INEI and from RENIEC. This package contains datasets with the mappings from one to the other & other extra data."
+type: software
 version: 1.0
 doi: 10.5281/zenodo.5289985
 date-released: 2021-08-24
 license: MIT
-url: "https://github.com/jmcastagnetto/ubigeo"
+repository-code: "https://github.com/jmcastagnetto/ubigeo"
