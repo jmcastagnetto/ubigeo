@@ -11,4 +11,4 @@ version: 1.0
 doi: 10.5281/zenodo.5289985
 date-released: 2021-08-24
 license: MIT
-repository-code: "https://github.com/jmcastagnetto/ubigeo"
+url: "https://github.com/jmcastagnetto/ubigeo"
