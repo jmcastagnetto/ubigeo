@@ -3,6 +3,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+[![DOI](https://zenodo.org/badge/399635399.svg)](https://zenodo.org/badge/latestdoi/399635399)
+
 
 ## Installation
 
